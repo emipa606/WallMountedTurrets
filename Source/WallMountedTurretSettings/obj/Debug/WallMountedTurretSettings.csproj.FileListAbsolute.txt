@@ -1,0 +1,20 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\WallMountedTurretSettings.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\WallMountedTurretSettings.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\UnityEngine.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.pdb
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.dll
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\WallMountedTurretSettings\obj\Debug\WallMountedTurretSettings.pdb
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\1.1\Assemblies\WallMountedTurretSettings.dll
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\1.1\Assemblies\WallMountedTurretSettings.pdb

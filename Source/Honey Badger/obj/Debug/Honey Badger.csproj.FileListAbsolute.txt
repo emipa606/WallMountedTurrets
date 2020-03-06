@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Source\Honey Badger\obj\Debug\Honey Badger.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Source\Honey Badger\obj\Debug\Honey Badger.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Assemblies\Honey Badger.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Wall_Turret\Source\Honey Badger\obj\Debug\Honey Badger.dll
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\Honey Badger\obj\Debug\Honey Badger.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\Honey Badger\obj\Debug\Honey Badger.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\Source\Honey Badger\obj\Debug\Honey Badger.dll
+E:\Steam\steamapps\common\RimWorld\Mods\WallMountedTurrets\1.1\Assemblies\Honey Badger.dll

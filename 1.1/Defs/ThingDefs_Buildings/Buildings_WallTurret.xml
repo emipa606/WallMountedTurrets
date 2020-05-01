@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--============ Normal Wall Turret ===========-->
-
 <Defs>
-
- <ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>WallTurret</defName>
     <label>wall turret</label>
     <description>A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.
@@ -36,20 +32,20 @@
       <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>60</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Refuelable">
         <fuelLabel>Shots until barrel change</fuelLabel>
         <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
         <fuelFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
         </fuelFilter>
         <fuelCapacity>60</fuelCapacity>
         <initialFuelPercent>1</initialFuelPercent>
@@ -81,12 +77,13 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
-    <specialDisplayRadius>14.9</specialDisplayRadius>									 <!-- Range when building -->
+    <specialDisplayRadius>14.9</specialDisplayRadius>
+    <!-- Range when building -->
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <building>
       <isInert>true</isInert>
       <ai_chillDestination>false</ai_chillDestination>
-			<ai_combatDangerous>true</ai_combatDangerous>
+      <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_WallTurret</turretGunDef>
       <turretBurstCooldownTime>1</turretBurstCooldownTime>
     </building>
@@ -96,11 +93,10 @@
     <researchPrerequisites>
       <li>GunTurrets</li>
     </researchPrerequisites>
-	<rotatable>true</rotatable>
-	<selectable>true</selectable>
-	<destroyable>true</destroyable>
+    <rotatable>true</rotatable>
+    <selectable>true</selectable>
+    <destroyable>true</destroyable>
   </ThingDef>
-
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_MiniTurret</defName>
     <label>mini-turret bullet</label>
@@ -114,7 +110,6 @@
       <speed>120</speed>
     </projectile>
   </ThingDef>
-  
   <ThingDef ParentName="BaseGun">
     <defName>Gun_WallTurret</defName>
     <label>wall turret gun</label>
@@ -147,7 +142,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_MiniTurret</defaultProjectile>
         <warmupTime>0</warmupTime>
-        <range>14.9</range>									 <!-- Actual range of the turret -->
+        <range>14.9</range>
+        <!-- Actual range of the turret -->
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <burstShotCount>3</burstShotCount>
         <soundCast>GunShotA</soundCast>
@@ -157,15 +153,13 @@
       </li>
     </verbs>
   </ThingDef>
-  
   <modExtensions>
-        <li Class="TurretExtensions.TurretFrameworkExtension">
-             <gunFaceDirectionOnSpawn>Unspecified</gunFaceDirectionOnSpawn>
-			<useMannerShootingAccuracy>false</useMannerShootingAccuracy>
-			<useMannerAimingDelayFactor>false</useMannerAimingDelayFactor>
-			<mannerShootingAccuracyOffset>0</mannerShootingAccuracyOffset>
-			<canForceAttack>false</canForceAttack>
-        </li>
-	</modExtensions>
- 
- </Defs>
+    <li Class="TurretExtensions.TurretFrameworkExtension">
+      <gunFaceDirectionOnSpawn>Unspecified</gunFaceDirectionOnSpawn>
+      <useMannerShootingAccuracy>false</useMannerShootingAccuracy>
+      <useMannerAimingDelayFactor>false</useMannerAimingDelayFactor>
+      <mannerShootingAccuracyOffset>0</mannerShootingAccuracyOffset>
+      <canForceAttack>false</canForceAttack>
+    </li>
+  </modExtensions>
+</Defs>

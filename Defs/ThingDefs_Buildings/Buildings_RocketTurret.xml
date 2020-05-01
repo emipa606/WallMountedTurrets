@@ -1,11 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--============ Wall Rocket Turret ===========-->
-
 <Defs>
-
-<ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>WallRocketTurret</defName>
     <label>wall rocket turret</label>
     <description>A couple of rockets canisters fitted onto a wall turret base, they can't fire very far due to a vey low fuel capacity in the rockets, and the blast radius is smaller compared to a normal rocket.</description>
@@ -36,14 +32,14 @@
       <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
     </statBases>
     <tickerType>Normal</tickerType>
-	    <comps>
-      <li Class="CompProperties_Forbiddable"/>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>125</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
       <li Class="CompProperties_Refuelable">
         <fuelLabel>Shots until rockets need replacing</fuelLabel>
         <fuelGizmoLabel>Rockets left</fuelGizmoLabel>
@@ -63,7 +59,7 @@
         <outOfFuelMessage>Cannot shoot: Needs more rockets</outOfFuelMessage>
         <fuelIconPath>Things/UI/Overlay/Rocket</fuelIconPath>
       </li>
-	  </comps>
+    </comps>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>0.5</fillPercent>
@@ -92,9 +88,7 @@
       <li>HeavyTurrets</li>
     </researchPrerequisites>
     <uiIconScale>0.95</uiIconScale>
-	</ThingDef>
-
-
+  </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>Rocket</defName>
     <label>rocket</label>
@@ -102,15 +96,14 @@
       <texPath>Things/Bullet/RocketFire/Rocket</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-	  <thingClass>Projectile_Explosive</thingClass>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>15</damageAmountBase>
-	  <explosionRadius>1</explosionRadius>
+      <explosionRadius>1</explosionRadius>
       <speed>45</speed>
     </projectile>
   </ThingDef>
-
   <ThingDef ParentName="BaseHumanGun">
     <defName>Gun_WallTurretRocket</defName>
     <label>Wall Rocket Turret</label>
@@ -155,15 +148,13 @@
       </li>
     </verbs>
   </ThingDef>
-  
-  	<modExtensions>
-        <li Class="TurretExtensions.TurretFrameworkExtension">
-             <gunFaceDirectionOnSpawn>Unspecified</gunFaceDirectionOnSpawn>
-			<useMannerShootingAccuracy>false</useMannerShootingAccuracy>
-			<useMannerAimingDelayFactor>false</useMannerAimingDelayFactor>
-			<mannerShootingAccuracyOffset>0</mannerShootingAccuracyOffset>
-			<canForceAttack>false</canForceAttack>
-        </li>
-	</modExtensions>
-  
-  </Defs>
+  <modExtensions>
+    <li Class="TurretExtensions.TurretFrameworkExtension">
+      <gunFaceDirectionOnSpawn>Unspecified</gunFaceDirectionOnSpawn>
+      <useMannerShootingAccuracy>false</useMannerShootingAccuracy>
+      <useMannerAimingDelayFactor>false</useMannerAimingDelayFactor>
+      <mannerShootingAccuracyOffset>0</mannerShootingAccuracyOffset>
+      <canForceAttack>false</canForceAttack>
+    </li>
+  </modExtensions>
+</Defs>

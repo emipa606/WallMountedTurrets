@@ -1,21 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Wall Mounted Turrets (Continued)</name>
-  	<packageId>Mlie.WallMountedTurrets</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/WallMountedTurrets</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Honey Badgers mod for RimWorld 1.1
+  <name>Wall Mounted Turrets (Continued)</name>
+  <packageId>Mlie.WallMountedTurrets</packageId>
+  <author>Honey Badger</author>
+  <url>https://github.com/emipa606/WallMountedTurrets</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter>
+    <li>automatic.gunplay</li>
+  </loadAfter>
+  <description>Update of Honey Badgers mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1812077718
 
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
 Support-chat:
-https://discord.gg/SuhwVpM
+https://invite.gg/mlie
 
 Non-steam version:
 https://github.com/emipa606/WallMountedTurrets

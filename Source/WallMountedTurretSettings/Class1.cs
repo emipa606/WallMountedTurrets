@@ -86,22 +86,22 @@ namespace WallMountedTurretSettings
                 myTurret.buildingPrerequisites.Add(myTurret);
             }
 
-            if (settings.WallTurretBarrel) //What this does is check to see if the 'WallTurretBarrel' checkbox has been enabled or not, if it's false, it removes the need to refuel the barrels from the XML
+            if (!settings.WallTurretBarrel) //What this does is check to see if the 'WallTurretBarrel' checkbox has been enabled or not, if it's false, it removes the need to refuel the barrels from the XML
             {
                 DefDatabase<ThingDef>.GetNamed("WallTurret").comps.RemoveAll(x => x is CompProperties_Refuelable);
             }
 
-            if (settings.WallFlameTurretBarrel)
+            if (!settings.WallFlameTurretBarrel)
             {
                 DefDatabase<ThingDef>.GetNamed("WallFlameTurret").comps.RemoveAll(x => x is CompProperties_Refuelable);
             }
 
-            if (settings.WallRocketTurretBarrel)
+            if (!settings.WallRocketTurretBarrel)
             {
                 DefDatabase<ThingDef>.GetNamed("WallRocketTurret").comps.RemoveAll(x => x is CompProperties_Refuelable);
             }
 
-            if (settings.WallMinigunTurretBarrel)
+            if (!settings.WallMinigunTurretBarrel)
             {
                 DefDatabase<ThingDef>.GetNamed("WallTurretMiniGun").comps.RemoveAll(x => x is CompProperties_Refuelable);
             }

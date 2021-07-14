@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <WallTurretMiniGun.label>wall minigun turret</WallTurretMiniGun.label>
   <WallTurretMiniGun.description>A couple of miniguns strapped onto a wall turret, these things are ridiculously fast, and have high HP compared to the rest of the turrets, but burn through barrels quickly due to the fact that they fire non stop until the target is dead.
 	
 	They require more power to keep the barrels spinning at all times.</WallTurretMiniGun.description>
-
   <!--[Duplicated] <Bullet_MiniTurret.label>mini-turret bullet</Bullet_MiniTurret.label>-->
-
   <Gun_WallTurretMiniGun.label>wall turret minigun</Gun_WallTurretMiniGun.label>
   <Gun_WallTurretMiniGun.description>A couple of miniguns strapped onto a wall turret.</Gun_WallTurretMiniGun.description>
-
-
 </LanguageData>

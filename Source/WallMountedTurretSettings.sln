@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WallMountedTurretSettings", "WallMountedTurretSettings\WallMountedTurretSettings.csproj", "{9C87DD38-7F58-46DB-8F29-AE4F20A39618}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wall_Turret_NextToWall_Worker", "Wall_Turret_NextToWall_Worker\Wall_Turret_NextToWall_Worker.csproj", "{86632288-E2A6-4587-95BE-0C4A55E9707B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Honey Badger", "Honey Badger\Honey Badger.csproj", "{FD8224C8-0A65-4AB9-AD20-488E9661C499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C87DD38-7F58-46DB-8F29-AE4F20A39618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C87DD38-7F58-46DB-8F29-AE4F20A39618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C87DD38-7F58-46DB-8F29-AE4F20A39618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C87DD38-7F58-46DB-8F29-AE4F20A39618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86632288-E2A6-4587-95BE-0C4A55E9707B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86632288-E2A6-4587-95BE-0C4A55E9707B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86632288-E2A6-4587-95BE-0C4A55E9707B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86632288-E2A6-4587-95BE-0C4A55E9707B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8224C8-0A65-4AB9-AD20-488E9661C499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8224C8-0A65-4AB9-AD20-488E9661C499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8224C8-0A65-4AB9-AD20-488E9661C499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8224C8-0A65-4AB9-AD20-488E9661C499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5B96EDB-B088-48BD-B3DD-3C3FB6D1A0B6}
+	EndGlobalSection
+EndGlobal

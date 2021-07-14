@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <WallFlameTurret.label>wall flame turret</WallFlameTurret.label>
   <WallFlameTurret.description>A couple of canisters full of chemfuel strapped to a wall turret, with an added torch at the end of the barrel to ignite the chemfuel coated bullets. It's also been given a red paintjob to show the change. It uses more materials to protect it from being blown up when a bullet hits it.</WallFlameTurret.description>
-
   <FIRE.label>fire</FIRE.label>
-
   <Gun_WallTurretFlame.label>Wall Flame turret</Gun_WallTurretFlame.label>
   <Gun_WallTurretFlame.description>A simple automatic gun made to be mounted on a wall turret.</Gun_WallTurretFlame.description>
-
-
 </LanguageData>

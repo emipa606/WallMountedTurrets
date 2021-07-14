@@ -1,15 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <WallTurret.label>wall turret</WallTurret.label>
   <WallTurret.description>A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.
 	
 	They are more suited for indoor protection compared to outdoors.</WallTurret.description>
-
   <Bullet_MiniTurret.label>mini-turret bullet</Bullet_MiniTurret.label>
-
   <Gun_WallTurret.label>wall turret gun</Gun_WallTurret.label>
   <Gun_WallTurret.description>A simple automatic gun made to be mounted on a wall turret.</Gun_WallTurret.description>
-
-
 </LanguageData>

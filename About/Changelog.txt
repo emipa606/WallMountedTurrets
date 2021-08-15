@@ -1,5 +1,8 @@
 # Changelog for WallMountedTurrets
 
+1.0.9.0 - Added a non-leathal turret for riot control
+
+
 1.0.8.0 - Mod updated for 1.3 and passed autotests
 
 

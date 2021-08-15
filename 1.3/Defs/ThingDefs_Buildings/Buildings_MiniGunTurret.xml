@@ -89,6 +89,7 @@
       <turretBurstCooldownTime>0</turretBurstCooldownTime>
     </building>
     <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
       <li>PlaceWorker_NextToWall_Turret</li>
     </placeWorkers>
     <researchPrerequisites>

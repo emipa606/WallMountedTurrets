@@ -81,6 +81,7 @@
       <turretTopOffset>(0, 0.05)</turretTopOffset>
     </building>
     <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
       <li>PlaceWorker_NextToWall_Turret</li>
     </placeWorkers>
     <designationHotKey>Misc3</designationHotKey>

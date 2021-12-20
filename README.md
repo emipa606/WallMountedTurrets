@@ -1,25 +1,17 @@
 # WallMountedTurrets
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Honey Badgers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1812077718
 
-- The mod is now CE-compatible
+- [strike]The mod is now CE-compatible[/strike] CE-patches now included in the main CE-mod instead
+- Added a non-lethal riot control turret, graphics by the original author
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/WallMountedTurrets]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 # Please read!
@@ -33,7 +25,7 @@ V1.0
     This mod allows you to make turrets that can be built next to walls!
 	
 
-Or as I like to call it: &apos;Wall mounted turrets&apos; (Previously &apos;Wall Turrets&apos; but people kept getting confused)
+Or as I like to call it: 'Wall mounted turrets' (Previously 'Wall Turrets' but people kept getting confused)
 
 =============================================================================
 # TURRETS
@@ -47,15 +39,15 @@ A machine gun turret, based off of the mini turret, it has a shorter range, fire
 
 https://imgur.com/a/2JBEVdU] ![Image]( https://i.imgur.com/y7DOrfc.png)
  
-A flamethrower turret that spews fire and ignites enemies upon hitting them, it was totally that pyromaniac in the corner with the torch staring at it intently, did he just say &quot;fire...&quot;? Must be another mental break. It uses chemfuel for...fuel...And it fires in bursts to prevent itself from melting the barrel off, which has been reinforced to handle the heat, which means the barrel won&apos;t need replacing.
+A flamethrower turret that spews fire and ignites enemies upon hitting them, it was totally that pyromaniac in the corner with the torch staring at it intently, did he just say "fire..."? Must be another mental break. It uses chemfuel for...fuel...And it fires in bursts to prevent itself from melting the barrel off, which has been reinforced to handle the heat, which means the barrel won't need replacing.
 
 https://imgur.com/a/F9nYYwF] ![Image]( https://i.imgur.com/ZUjiass.png )
  
-A rocket turret, as you can imagine, it shoots rockets, it&apos;s not very powerful compared to say, the triple rocket launcher, or the doomsday rocket launcher, but it does fire two rockets at a time, with small explosions, not exactly ideal for indoor defences, but it&apos;s not like they&apos;ll blow your walls apart.
+A rocket turret, as you can imagine, it shoots rockets, it's not very powerful compared to say, the triple rocket launcher, or the doomsday rocket launcher, but it does fire two rockets at a time, with small explosions, not exactly ideal for indoor defences, but it's not like they'll blow your walls apart.
 
 https://imgur.com/a/O6snt5r] ![Image]( https://i.imgur.com/4FZo8HD.gif )
  
-A minigun turret, you can probably guess how this works, it fires quickly, in fact the motors on it are constantly on, making it a bigger power drain, but allows it to fire instantly, and unlike all the other turrets, there is no &apos;burst&apos; or &apos;cooldown&apos;, it just keeps firing, it will drain your barrels however...
+A minigun turret, you can probably guess how this works, it fires quickly, in fact the motors on it are constantly on, making it a bigger power drain, but allows it to fire instantly, and unlike all the other turrets, there is no 'burst' or 'cooldown', it just keeps firing, it will drain your barrels however...
 
 *Note: Turret will not have spinning barrels in game, I tried.*
 =============================================================================
@@ -65,31 +57,31 @@ As all the turrets I have planned to work on have been finished, I will be focus
 # QUESTIONS!
 
 
-**&apos;Is it compatible with CE?&apos;**
+**'Is it compatible with CE?'**
 	
 Not at the moment, in the future there will be, but when is something I can not give an answer on.
 
 **How about Turret Extensions?**
 
-Yep it&apos;s compatible with this mod
+Yep it's compatible with this mod
 
-**&apos;I don&apos;t want to replace these barrels, can&apos;t you get rid of them?&apos;**
-
-You can now do that in this mod! Check out the settings page in game
-
-**&apos;I only want the original machine gun turret&apos;**
+**'I don't want to replace these barrels, can't you get rid of them?'**
 
 You can now do that in this mod! Check out the settings page in game
 
-**&quot;Uhh why should I use this? Like vanilla turrets do the same,  why would you even bother making this if it isn&apos;t gonna be in the wall&quot;**
+**'I only want the original machine gun turret'**
 
-A) You shouldn&apos;t have to
+You can now do that in this mod! Check out the settings page in game
+
+**"Uhh why should I use this? Like vanilla turrets do the same,  why would you even bother making this if it isn't gonna be in the wall"**
+
+A) You shouldn't have to
 B) Ok.
-C) Because that thought never came across my mind. It&apos;s my first mod, you can&apos;t expect me to go big straight away, do that with anything and you&apos;ll give up quickly, i&apos;ve done that so many times that i&apos;ve found it&apos;s just better to do it small and steady.
+C) Because that thought never came across my mind. It's my first mod, you can't expect me to go big straight away, do that with anything and you'll give up quickly, i've done that so many times that i've found it's just better to do it small and steady.
 
-**&quot;k but what makes your mod so special to use literally vanilla turrets do the same??&quot;**
+**"k but what makes your mod so special to use literally vanilla turrets do the same??"**
 
-Yeah, vanilla turrets do the same. But these are turrets designed more for immersion, that have hooks to be placed next to walls, if you don&apos;t like it, **don&apos;t use it**.
+Yeah, vanilla turrets do the same. But these are turrets designed more for immersion, that have hooks to be placed next to walls, if you don't like it, **don't use it**.
 
 	Special thanks to (In no particular order):
 	- LoonyLadle (Helping me figure out the placeworker stuff)
@@ -101,10 +93,10 @@ Yeah, vanilla turrets do the same. But these are turrets designed more for immer
 
 # Note
 
-I am aware that some people think these are turrets in the walls, no, this is not the case, please don&apos;t comment about it, I&apos;m fully aware of this and I have stated this **is something I will work on in the future, however it is a low priority since this is my first mod**, if that is enough to make you not want to sub to this mod, then that&apos;s your choice.
+I am aware that some people think these are turrets in the walls, no, this is not the case, please don't comment about it, I'm fully aware of this and I have stated this **is something I will work on in the future, however it is a low priority since this is my first mod**, if that is enough to make you not want to sub to this mod, then that's your choice.
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -114,7 +106,6 @@ I am aware that some people think these are turrets in the walls, no, this is no
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

@@ -1,5 +1,8 @@
 # Changelog for WallMountedTurrets
 
+1.0.10.0 - CE-patch is now included in the main CE-mod instead
+
+
 1.0.9.0 - Added a non-leathal turret for riot control
 
 

@@ -1,13 +1,12 @@
 ﻿using Verse;
 
-namespace WallMountedTurretSettings
+namespace WallMountedTurretSettings;
+
+[StaticConstructorOnStartup]
+public static class SettingsImplementerOnStartUp
 {
-    [StaticConstructorOnStartup]
-    public static class SettingsImplementerOnStartUp
+    static SettingsImplementerOnStartUp()
     {
-        static SettingsImplementerOnStartUp()
-        {
-            LoadedModManager.GetMod<WallMountedTurret>().ImplementSettings();
-        }
+        LoadedModManager.GetMod<WallMountedTurret>().ImplementSettings();
     }
 }

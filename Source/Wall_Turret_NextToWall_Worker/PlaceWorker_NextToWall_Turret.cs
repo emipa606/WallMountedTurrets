@@ -15,8 +15,7 @@ public class PlaceWorker_NextToWall_Turret : PlaceWorker
         }
 
         if (
-            support.def == null ||
-            support.def.graphicData == null
+            support.def?.graphicData == null
         )
         {
             return "MessagePlacementAgainstSupport".Translate();

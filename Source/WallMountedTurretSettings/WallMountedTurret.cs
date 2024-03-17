@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Mlie;
+﻿using Mlie;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -15,8 +14,7 @@ public class WallMountedTurret : Mod
     {
         settings = GetSettings<WallMountedTurretSettings>();
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(
-                ModLister.GetActiveModWithIdentifier("Mlie.WallMountedTurrets"));
+            VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
     }
 
     // This adds the 'window' page and what options there are
@@ -71,7 +69,7 @@ public class WallMountedTurret : Mod
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallTurret");
             if (myTurret.buildingPrerequisites == null)
             {
-                myTurret.buildingPrerequisites = new List<ThingDef>();
+                myTurret.buildingPrerequisites = [];
             }
 
             myTurret.buildingPrerequisites.Add(myTurret);
@@ -82,7 +80,7 @@ public class WallMountedTurret : Mod
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallFlameTurret");
             if (myTurret.buildingPrerequisites == null)
             {
-                myTurret.buildingPrerequisites = new List<ThingDef>();
+                myTurret.buildingPrerequisites = [];
             }
 
             myTurret.buildingPrerequisites.Add(myTurret);
@@ -93,7 +91,7 @@ public class WallMountedTurret : Mod
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallRocketTurret");
             if (myTurret.buildingPrerequisites == null)
             {
-                myTurret.buildingPrerequisites = new List<ThingDef>();
+                myTurret.buildingPrerequisites = [];
             }
 
             myTurret.buildingPrerequisites.Add(myTurret);
@@ -104,7 +102,7 @@ public class WallMountedTurret : Mod
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallTurretMiniGun");
             if (myTurret.buildingPrerequisites == null)
             {
-                myTurret.buildingPrerequisites = new List<ThingDef>();
+                myTurret.buildingPrerequisites = [];
             }
 
             myTurret.buildingPrerequisites.Add(myTurret);

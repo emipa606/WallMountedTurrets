@@ -2,7 +2,7 @@
 using UnityEngine;
 using Verse;
 
-public class TurretTopWall
+public class TurretTopWall(Building_Turret ParentTurret)
 {
     private const float IdleTurnDegreesPerTick = 0.26f;
 
@@ -11,7 +11,6 @@ public class TurretTopWall
     private const int IdleTurnIntervalMin = 150;
 
     private const int IdleTurnIntervalMax = 350;
-    private readonly Building_Turret parentTurret;
 
     private float curRotationInt;
 
@@ -20,11 +19,6 @@ public class TurretTopWall
     private int idleTurnTicksLeft;
 
     private int ticksUntilIdleTurn;
-
-    public TurretTopWall(Building_Turret ParentTurret)
-    {
-        parentTurret = ParentTurret;
-    }
 
     private float CurRotation
     {
@@ -46,11 +40,11 @@ public class TurretTopWall
 
     public void TurretTopTick()
     {
-        var currentTarget = parentTurret.CurrentTarget;
+        var currentTarget = ParentTurret.CurrentTarget;
         if (currentTarget.IsValid)
         {
-            CurRotation = (currentTarget.Cell.ToVector3Shifted() - parentTurret.DrawPos).AngleFlat();
-            ticksUntilIdleTurn = Rand.RangeInclusive(150, 350);
+            CurRotation = (currentTarget.Cell.ToVector3Shifted() - ParentTurret.DrawPos).AngleFlat();
+            ticksUntilIdleTurn = Rand.RangeInclusive(IdleTurnIntervalMin, IdleTurnIntervalMax);
         }
         else if (ticksUntilIdleTurn > 0)
         {
@@ -62,35 +56,35 @@ public class TurretTopWall
 
             idleTurnClockwise = Rand.Value < 0.5f;
 
-            idleTurnTicksLeft = 140;
+            idleTurnTicksLeft = IdleTurnDuration;
         }
         else
         {
             if (idleTurnClockwise)
             {
-                CurRotation += 0.26f;
+                CurRotation += IdleTurnDegreesPerTick;
             }
             else
             {
-                CurRotation -= 0.26f;
+                CurRotation -= IdleTurnDegreesPerTick;
             }
 
             idleTurnTicksLeft--;
             if (idleTurnTicksLeft <= 0)
             {
-                ticksUntilIdleTurn = Rand.RangeInclusive(150, 350);
+                ticksUntilIdleTurn = Rand.RangeInclusive(IdleTurnIntervalMin, IdleTurnIntervalMax);
             }
         }
     }
 
     public void DrawTurret()
     {
-        var b = new Vector3(parentTurret.def.building.turretTopOffset.x, 0f,
-            parentTurret.def.building.turretTopOffset.y);
-        var turretTopDrawSize = parentTurret.def.building.turretTopDrawSize;
+        var b = new Vector3(ParentTurret.def.building.turretTopOffset.x, 0f,
+            ParentTurret.def.building.turretTopOffset.y);
+        var turretTopDrawSize = ParentTurret.def.building.turretTopDrawSize;
         var matrix = default(Matrix4x4);
-        matrix.SetTRS(parentTurret.DrawPos + Altitudes.AltIncVect + b, CurRotation.ToQuat(),
+        matrix.SetTRS(ParentTurret.DrawPos + Altitudes.AltIncVect + b, CurRotation.ToQuat(),
             new Vector3(turretTopDrawSize, 1f, turretTopDrawSize));
-        Graphics.DrawMesh(MeshPool.plane10, matrix, parentTurret.def.building.turretTopMat, 0);
+        Graphics.DrawMesh(MeshPool.plane10, matrix, ParentTurret.def.building.turretTopMat, 0);
     }
 }

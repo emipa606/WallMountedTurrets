@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 303755546
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 136ce016a6bdd2acac6492f5bf7c2117
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 136ce016a6bdd2acac6492f5bf7c2117
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallRocketTurretBase.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Bullet/Fire/FIRE.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretGun.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretBase.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretFlameUI.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretMiniGunBase.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/UI/Overlay/Rocket.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretMiniGunA.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRocketUI.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretGunNew.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretMiniGunUI.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/UI/Overlay/NoFuel.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRocketNew.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretMiniGunANew.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Bullet/RocketFire/Rocket.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretUI.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRiotUI.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRiotBase.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/Minigun/WallTurretMiniGunB.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretFlameNew.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallFlameTurretBase.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRocket.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/Minigun/WallTurretMiniGunA.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretFlame.png
+- Assets/Data/Mlie.WallMountedTurrets/Textures/Things/Building/Security/WallTurretRiot.png
+Dependencies: []

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Wall Rocket Turret -->
+  <Gun_WallTurretRocket.label>Wall Rocket Turret</Gun_WallTurretRocket.label>
+  <!-- EN: A couple of rockets strapped to a turret base. -->
+  <Gun_WallTurretRocket.description>A couple of rockets strapped to a turret base.</Gun_WallTurretRocket.description>
+  <!-- EN: Wall Rocket Turret -->
+  <Gun_WallTurretRocket.verbs.Verb_Shoot.label>Wall Rocket Turret</Gun_WallTurretRocket.verbs.Verb_Shoot.label>
+  <!-- EN: rocket -->
+  <Rocket.label>rocket</Rocket.label>
+  <!-- EN: wall rocket turret -->
+  <WallRocketTurret.label>wall rocket turret</WallRocketTurret.label>
+  <!-- EN: A couple of rockets canisters fitted onto a wall turret base, they can't fire very far due to a vey low fuel capacity in the rockets, and the blast radius is smaller compared to a normal rocket. -->
+  <WallRocketTurret.description>A couple of rockets canisters fitted onto a wall turret base, they can't fire very far due to a vey low fuel capacity in the rockets, and the blast radius is smaller compared to a normal rocket.</WallRocketTurret.description>
+  <!-- EN: Rockets left -->
+  <WallRocketTurret.comps.CompRefuelable.fuelGizmoLabel>Rockets left</WallRocketTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until rockets need replacing -->
+  <WallRocketTurret.comps.CompRefuelable.fuelLabel>Shots until rockets need replacing</WallRocketTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs more rockets -->
+  <WallRocketTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs more rockets</WallRocketTurret.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

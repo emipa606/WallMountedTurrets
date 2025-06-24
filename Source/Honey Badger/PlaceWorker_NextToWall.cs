@@ -11,14 +11,8 @@ public class PlaceWorker_NextToWall : PlaceWorker
         var c = loc - rot.FacingCell;
 
         var support = c.GetEdifice(map);
-        if (support == null)
-        {
-            return "MessagePlacementAgainstSupport".Translate();
-        }
-
-        if (
-            support.def?.graphicData == null
-        )
+        if (support?.def?.graphicData == null
+           )
         {
             return "MessagePlacementAgainstSupport".Translate();
         }

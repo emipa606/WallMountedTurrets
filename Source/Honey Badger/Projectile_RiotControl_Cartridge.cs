@@ -6,7 +6,7 @@ namespace Honey_Badger;
 
 public class Projectile_RiotControl_Cartridge : Bullet
 {
-    public ThingDef_RiotControl_HediffBullet Def => def as ThingDef_RiotControl_HediffBullet;
+    private ThingDef_RiotControl_HediffBullet Def => def as ThingDef_RiotControl_HediffBullet;
 
     protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {

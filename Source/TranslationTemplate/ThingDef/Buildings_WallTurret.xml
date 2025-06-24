@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mini-turret bullet -->
+  <Bullet_MiniTurret.label>mini-turret bullet</Bullet_MiniTurret.label>
+  <!-- EN: wall turret gun -->
+  <Gun_WallTurret.label>wall turret gun</Gun_WallTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a wall turret. -->
+  <Gun_WallTurret.description>A simple automatic gun made to be mounted on a wall turret.</Gun_WallTurret.description>
+  <!-- EN: wall turret gun -->
+  <Gun_WallTurret.verbs.Verb_Shoot.label>wall turret gun</Gun_WallTurret.verbs.Verb_Shoot.label>
+  <!-- EN: wall turret -->
+  <WallTurret.label>wall turret</WallTurret.label>
+  <!-- EN: A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.\n	\n	They are more suited for indoor protection compared to outdoors. -->
+  <WallTurret.description>A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.
+	
+	They are more suited for indoor protection compared to outdoors.</WallTurret.description>
+  <!-- EN: Barrel durability -->
+  <WallTurret.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</WallTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <WallTurret.comps.CompRefuelable.fuelLabel>Shots until barrel change</WallTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <WallTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</WallTurret.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

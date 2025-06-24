@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: rubber bullet -->
+  <Bullet_RiotControlTurret.label>rubber bullet</Bullet_RiotControlTurret.label>
+  <!-- EN: wall riot control turret gun -->
+  <Gun_WallRiotControlTurret.label>wall riot control turret gun</Gun_WallRiotControlTurret.label>
+  <!-- EN: A simple automatic gun made to be mounted on a wall riot control turret. -->
+  <Gun_WallRiotControlTurret.description>A simple automatic gun made to be mounted on a wall riot control turret.</Gun_WallRiotControlTurret.description>
+  <!-- EN: wall riot control turret gun -->
+  <Gun_WallRiotControlTurret.verbs.Verb_Shoot.label>wall riot control turret gun</Gun_WallRiotControlTurret.verbs.Verb_Shoot.label>
+  <!-- EN: wall riot control turret -->
+  <WallRiotControlTurret.label>wall riot control turret</WallRiotControlTurret.label>
+  <!-- EN: A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.\n	\n	They are more suited for indoor protection compared to outdoors. This version uses rubber bullets to take out the target in a non-lethal way. -->
+  <WallRiotControlTurret.description>A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.
+	
+	They are more suited for indoor protection compared to outdoors. This version uses rubber bullets to take out the target in a non-lethal way.</WallRiotControlTurret.description>
+  <!-- EN: Barrel durability -->
+  <WallRiotControlTurret.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</WallRiotControlTurret.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <WallRiotControlTurret.comps.CompRefuelable.fuelLabel>Shots until barrel change</WallRiotControlTurret.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <WallRiotControlTurret.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</WallRiotControlTurret.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

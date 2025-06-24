@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <WallTurret.label>wall turret</WallTurret.label>
   <WallTurret.description>A turret built into a wall, it doesn't have as much health as a normal turret, however, it won't explode, and fires faster due to the addition of motors on the side of the turret that launches the bullets at a faster rate.

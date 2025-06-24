@@ -1,19 +1,17 @@
-# WallMountedTurrets
+# [Wall Mounted Turrets (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2015445164)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Honey Badgers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1812077718
 
-- [strike]The mod is now CE-compatible[/strike] CE-patches now included in the main CE-mod instead
+- ~~The mod is now CE-compatible~~ CE-patches now included in the main CE-mod instead
 - Added a non-lethal riot control turret, graphics by the original author
-- Check out the retexture mod by 3HST有限公司  https://steamcommunity.com/sharedfiles/filedetails/?id=2915769549]here
+- Check out the retexture mod by 3HST有限公司 [here]( https://steamcommunity.com/sharedfiles/filedetails/?id=2915769549)
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 # Please read!
 
@@ -34,20 +32,16 @@ Or as I like to call it: 'Wall mounted turrets' (Previously 'Wall Turrets' but p
 
 This mod currently features four turrets:
 
-https://imgur.com/UDlnmQO] ![Image](https://i.imgur.com/UDlnmQO.png)
- 
+[ ![Image](https://i.imgur.com/UDlnmQO.png) ](https://imgur.com/UDlnmQO)
 A machine gun turret, based off of the mini turret, it has a shorter range, fires faster, and uses less resources, suitable for indoor defences
 
-https://imgur.com/a/2JBEVdU] ![Image]( https://i.imgur.com/y7DOrfc.png)
- 
+[ ![Image]( https://i.imgur.com/y7DOrfc.png) ](https://imgur.com/a/2JBEVdU)
 A flamethrower turret that spews fire and ignites enemies upon hitting them, it was totally that pyromaniac in the corner with the torch staring at it intently, did he just say "fire..."? Must be another mental break. It uses chemfuel for...fuel...And it fires in bursts to prevent itself from melting the barrel off, which has been reinforced to handle the heat, which means the barrel won't need replacing.
 
-https://imgur.com/a/F9nYYwF] ![Image]( https://i.imgur.com/ZUjiass.png )
- 
+[ ![Image]( https://i.imgur.com/ZUjiass.png ) ](https://imgur.com/a/F9nYYwF)
 A rocket turret, as you can imagine, it shoots rockets, it's not very powerful compared to say, the triple rocket launcher, or the doomsday rocket launcher, but it does fire two rockets at a time, with small explosions, not exactly ideal for indoor defences, but it's not like they'll blow your walls apart.
 
-https://imgur.com/a/O6snt5r] ![Image]( https://i.imgur.com/4FZo8HD.gif )
- 
+[ ![Image]( https://i.imgur.com/4FZo8HD.gif ) ](https://imgur.com/a/O6snt5r)
 A minigun turret, you can probably guess how this works, it fires quickly, in fact the motors on it are constantly on, making it a bigger power drain, but allows it to fire instantly, and unlike all the other turrets, there is no 'burst' or 'cooldown', it just keeps firing, it will drain your barrels however...
 
 *Note: Turret will not have spinning barrels in game, I tried.*
@@ -103,13 +97,12 @@ I am aware that some people think these are turrets in the walls, no, this is no
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2015445164]![Image](https://img.shields.io/github/v/release/emipa606/WallMountedTurrets?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/WallMountedTurrets?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015445164) | tags:  combat

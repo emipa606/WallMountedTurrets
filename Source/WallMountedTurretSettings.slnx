@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="Honey Badger/Honey Badger.csproj" />
+  <Project Path="WallMountedTurretSettings/WallMountedTurretSettings.csproj" />
+  <Project Path="Wall_Turret_NextToWall_Worker/Wall_Turret_NextToWall_Worker.csproj" />
+</Solution>

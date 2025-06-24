@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mini-turret bullet -->
+  <Bullet_MiniGunTurret.label>mini-turret bullet</Bullet_MiniGunTurret.label>
+  <!-- EN: wall turret minigun -->
+  <Gun_WallTurretMiniGun.label>wall turret minigun</Gun_WallTurretMiniGun.label>
+  <!-- EN: A couple of miniguns strapped onto a wall turret. -->
+  <Gun_WallTurretMiniGun.description>A couple of miniguns strapped onto a wall turret.</Gun_WallTurretMiniGun.description>
+  <!-- EN: wall turret minigun -->
+  <Gun_WallTurretMiniGun.verbs.Verb_Shoot.label>wall turret minigun</Gun_WallTurretMiniGun.verbs.Verb_Shoot.label>
+  <!-- EN: wall minigun turret -->
+  <WallTurretMiniGun.label>wall minigun turret</WallTurretMiniGun.label>
+  <!-- EN: A couple of miniguns strapped onto a wall turret, these things are ridiculously fast, and have high HP compared to the rest of the turrets, but burn through barrels quickly due to the fact that they fire non stop until the target is dead.\n	\n	They require more power to keep the barrels spinning at all times. -->
+  <WallTurretMiniGun.description>A couple of miniguns strapped onto a wall turret, these things are ridiculously fast, and have high HP compared to the rest of the turrets, but burn through barrels quickly due to the fact that they fire non stop until the target is dead.
+	
+	They require more power to keep the barrels spinning at all times.</WallTurretMiniGun.description>
+  <!-- EN: Barrel durability -->
+  <WallTurretMiniGun.comps.CompRefuelable.fuelGizmoLabel>Barrel durability</WallTurretMiniGun.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <WallTurretMiniGun.comps.CompRefuelable.fuelLabel>Shots until barrel change</WallTurretMiniGun.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs new barrel -->
+  <WallTurretMiniGun.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs new barrel</WallTurretMiniGun.comps.CompRefuelable.outOfFuelMessage>
+</LanguageData>

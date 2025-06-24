@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shock pain -->
+  <HB_RiotControl.label>shock pain</HB_RiotControl.label>
+  <!-- EN: Causes intense pain and forces the pawn to lay down -->
+  <HB_RiotControl.description>Causes intense pain and forces the pawn to lay down</HB_RiotControl.description>
+  <!-- EN: a pain shock -->
+  <HB_RiotControl.labelNoun>a pain shock</HB_RiotControl.labelNoun>
+  <!-- EN: trivial -->
+  <HB_RiotControl.stages.trivial.label>trivial</HB_RiotControl.stages.trivial.label>
+  <!-- EN: minor -->
+  <HB_RiotControl.stages.minor.label>minor</HB_RiotControl.stages.minor.label>
+  <!-- EN: moderate -->
+  <HB_RiotControl.stages.moderate-0.label>moderate</HB_RiotControl.stages.moderate-0.label>
+  <!-- EN: moderate -->
+  <HB_RiotControl.stages.moderate-1.label>moderate</HB_RiotControl.stages.moderate-1.label>
+  <!-- EN: severe -->
+  <HB_RiotControl.stages.severe-0.label>severe</HB_RiotControl.stages.severe-0.label>
+  <!-- EN: severe -->
+  <HB_RiotControl.stages.severe-1.label>severe</HB_RiotControl.stages.severe-1.label>
+  <!-- EN: severe -->
+  <HB_RiotControl.stages.severe-2.label>severe</HB_RiotControl.stages.severe-2.label>
+  <!-- EN: extreme -->
+  <HB_RiotControl.stages.extreme.label>extreme</HB_RiotControl.stages.extreme.label>
+</LanguageData>

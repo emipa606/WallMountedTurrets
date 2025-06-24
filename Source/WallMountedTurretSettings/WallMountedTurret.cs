@@ -64,46 +64,34 @@ public class WallMountedTurret : Mod
     // This searches for the 'MyTurretDefNameIsVisible' to see if it's enabled/disabled
     public void ImplementSettings()
     {
-        if (settings.MyTurretDefNameIsVisible == false)
+        if (!settings.MyTurretDefNameIsVisible)
         {
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallTurret");
-            if (myTurret.buildingPrerequisites == null)
-            {
-                myTurret.buildingPrerequisites = [];
-            }
+            myTurret.buildingPrerequisites ??= [];
 
             myTurret.buildingPrerequisites.Add(myTurret);
         }
 
-        if (settings.MyTurretDefNameFlameIsVisible == false)
+        if (!settings.MyTurretDefNameFlameIsVisible)
         {
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallFlameTurret");
-            if (myTurret.buildingPrerequisites == null)
-            {
-                myTurret.buildingPrerequisites = [];
-            }
+            myTurret.buildingPrerequisites ??= [];
 
             myTurret.buildingPrerequisites.Add(myTurret);
         }
 
-        if (settings.MyTurretDefNameRocketIsVisible == false)
+        if (!settings.MyTurretDefNameRocketIsVisible)
         {
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallRocketTurret");
-            if (myTurret.buildingPrerequisites == null)
-            {
-                myTurret.buildingPrerequisites = [];
-            }
+            myTurret.buildingPrerequisites ??= [];
 
             myTurret.buildingPrerequisites.Add(myTurret);
         }
 
-        if (settings.MyTurretDefNameMinigunIsVisible == false)
+        if (!settings.MyTurretDefNameMinigunIsVisible)
         {
             var myTurret = DefDatabase<ThingDef>.GetNamed("WallTurretMiniGun");
-            if (myTurret.buildingPrerequisites == null)
-            {
-                myTurret.buildingPrerequisites = [];
-            }
+            myTurret.buildingPrerequisites ??= [];
 
             myTurret.buildingPrerequisites.Add(myTurret);
         }

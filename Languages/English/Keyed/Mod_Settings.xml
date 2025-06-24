@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <WMT.enablewt>Enable Wall Turret?</WMT.enablewt>
   <WMT.enablewt.tooltip>This enables or disables the wall turret</WMT.enablewt.tooltip>

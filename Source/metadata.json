@@ -3,7 +3,13 @@
   "CanAdd": "0",
   "CanRemove": "2",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-06-24T23:12:05.4011365+02:00",
+  "LastXmlCleaning": "2025-07-20T19:24:21.4358192+02:00",
   "SocialImageSet": true,
-  "SearchTags": " combat"
+  "SearchTags": " combat",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 11571,
+  "LinesOfXML": 36759,
+  "CodeBaseSize": 74
 }

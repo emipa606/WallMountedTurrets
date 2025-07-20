@@ -9,7 +9,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1812077718
 - Added a non-lethal riot control turret, graphics by the original author
 - Check out the retexture mod by 3HST有限公司 [here]( https://steamcommunity.com/sharedfiles/filedetails/?id=2915769549)
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/3npT60J.png)
+
+This mod has been replaced by [Wall Mounted Turrets Version 2](https://steamcommunity.com/sharedfiles/filedetails/?id=3525168205) by Honey Badger
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -97,7 +99,7 @@ I am aware that some people think these are turrets in the walls, no, this is no
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.

@@ -10,4 +10,10 @@
     <content>Added support for Combat Extended after requests. Since I dont use CE myself the turrets might be unbalanced, please report any suggestions for improvment on the Steam mod-page or in the Discord-server, thank you.
 </content>
   </HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="WallMountedTurrets_UpdateFeatureBase">
+		<defName>WallMountedTurrets_1_6_0</defName>
+		<assemblyVersion>1.6.0</assemblyVersion>
+		<content>This mod will not be further updated, please use Wall Mounted Turrets Version 2 by Honey Badger instead.</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
+
